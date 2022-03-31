@@ -1,0 +1,34 @@
+html,
+body {
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+  background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+  min-width: 400px;
+  text-align: center;
+  font-family: "Lucida Sans";
+}
+
+#town {
+  text-transform: capitalize;
+}
+
+#temperature {
+  font-size: 4em;
+}
+
+#change {
+  background: rgba(178, 223, 251, 0.3);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+  margin: 0 auto;
+  width: 150px;
+}
+
+#change:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
